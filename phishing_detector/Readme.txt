@@ -1,19 +1,19 @@
 The Phishing Detection Chrome Extension aims to classify, every browsed URL, under phished and non-phished category(on page load); thereby, alerting the user of any malicious activity and prevent intrusion.
 
-Steps to install the chrome extension:
+**Steps to install the chrome extension:**
 1. Google Chrome -> More Tools -> Extensions
 2. Click 'Load unpacked extension..'
 3. Open the 'Engineering Module' directory
 4. Phishing Detection extension ready to monitor all the sites loaded on the Chrome browser
 
-Test URLs(positive tests - phishing detected):
+**Test URLs(positive tests - phishing detected):**
 1. ../Engineering Module/Phishing.html (Test phished page created)
 2. https://www.phishtank.com/phish_search.php?verified=u&active=y (List of phished sites available)
 
-ML Algorithms:
+**ML Algorithms:**
 SVM, Neural Networks and Random Forest algorithms have been used to evaluate the data-set; and the SVM trained persistent model has been passed to the engineering module for phishing detection.
 
-Engineering Modules:
+**Engineering Modules:**
 1. manifest.json:
 It provides Chrome with the basic information about the extension like name, permissions, associated scripts and files.
 
